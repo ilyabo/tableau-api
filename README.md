@@ -11,3 +11,8 @@ Add the following dependency to your package.json:
     "dependencies": {
        "tableau-api": "git://github.com/ilyabo/tableau-api"
     }
+
+
+Then, require it in your code:
+
+    var tableau = require('tableau-api');
