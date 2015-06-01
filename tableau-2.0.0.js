@@ -4,6 +4,9 @@
 //! tableau-2.0.0.js
 //
 
+var tableauSoftware = {};
+
+(function() {
 
 
 // (function() {
@@ -59,9 +62,12 @@ var originalRegistrationFunctions = {
   registerEnum: { isPrototype: true, func: Type.prototype.registerEnum }
 };
 
-var tableauSoftware = {};
 var tab = {};
 var tabBootstrap = {};
+
+
+Type.registerNamespace = function (name) {
+};
 
 Type.prototype.registerInterface = function (name) {
 };
@@ -7055,5 +7061,6 @@ restoreTypeSystem();
 tab._ApiBootstrap.initialize();
 
 
+})();
 
 module.exports = tableauSoftware;
