@@ -16,3 +16,7 @@ Add the following dependency to your package.json:
 Then, require it in your code:
 
     var tableau = require('tableau-api');
+    
+    
+Refer to [the API documentation](http://onlinehelp.tableau.com/current/api/js_api/en-us/help.htm)
+for the details on how to use it.
